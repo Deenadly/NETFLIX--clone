@@ -1,0 +1,36 @@
+* {
+  margin-top: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.navbartitle {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+}
+.netflixlogofill {
+  height: 90px;
+  color: rgb(229, 9, 20);
+}
+.navbtn {
+  display: flex;
+  width: 290px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 380px) {
+  .navbartitle {
+    padding: 10px;
+  }
+  .netflixlogofill {
+    height: 60px;
+    color: rgb(229, 9, 20);
+  }
+  .navbtn {
+    display: flex;
+    width: 200px;
+    align-items: center;
+  }
+}

@@ -1,0 +1,17 @@
+.nav {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navavatar {
+  width: 40px;
+}
+.netflix-logo {
+  width: 150px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
