@@ -1,0 +1,76 @@
+* {
+  margin-top: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.smallbtn {
+  height: 1.9rem;
+  width: 4.5rem;
+  background: transparent;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  font-weight: 550;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.smallbtn:hover {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.1) 60%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+}
+.largebtn {
+  height: 3.5rem;
+  width: 13rem;
+  background: transparent;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  font-weight: 550;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: x-large;
+}
+
+.signinbtn {
+  height: 3rem;
+  width: 100%;
+  background: transparent;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  font-weight: 550;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.homebtn {
+  height: 2.9rem;
+  width: 10.5rem;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 550;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.homebtn:hover{
+ background-color: rgb(197, 197, 197);
+}
+@media screen and (max-width: 380px) {
+  .largebtn {
+    height: 3rem;
+    width: 9rem;
+    background: transparent;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-weight: 550;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+  }
+}

@@ -1,0 +1,94 @@
+.singleinputfeild {
+  position: relative;
+  width: 23rem;
+  height: 3.5rem;
+  background: transparent;
+  background-image: linear-gradient(
+    to top,
+    rgba(26, 26, 20, 0.7) 50%,
+    rgba(26, 26, 20, 0.8) 50%,
+    rgba(26, 26, 20, 0.7) 50%
+  );
+  color: white;
+  font-size: large;
+  padding: 0px 13px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+}
+
+.singleinputfeild:focus + .singleinputlabel,
+.singleinputfeild:valid + .singleinputlabel {
+  font-size: 13px;
+  transform: translateY(-14px);
+  margin-right: px;
+}
+
+.input-contaioner {
+  position: relative;
+}
+.input-contaioner > label {
+  position: absolute;
+  right: -12px;
+  top: 15px;
+  padding-left: 1px;
+  color: rgb(159, 159, 159);
+  width: 100%;
+  text-align: start;
+  /* border: 2px solid red; */
+}
+
+.singleinputfeild:focus {
+  outline: none;
+}
+
+.signinemail {
+  position: relative;
+  width: 100%;
+  height: 3.2rem;
+  color:white;
+  font-size: large;
+  background-color: rgb(51, 51, 51);
+  padding: 0px 13px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+}
+
+.signinemail:focus {
+  outline: none;
+}
+.signinemail:focus + .singleinputlabel,
+.signinemail:valid + .singleinputlabel {
+  font-size: 13px;
+  transform: translateY(-14px);
+}
+
+@media screen and (max-width: 380px) {
+  .singleinputfeild {
+    height: 3rem;
+    background: transparent;
+    background-image: linear-gradient(
+      to top,
+      rgba(26, 26, 20, 0.7) 50%,
+      rgba(26, 26, 20, 0.8) 50%,
+      rgba(26, 26, 20, 0.7) 50%
+    );
+    color: white;
+    width: 17rem;
+    padding: 0px 0px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .input-contaioner > label {
+    position: absolute;
+    left: -95px;
+    font-size: 10px;
+    width: 100%;
+  }
+  .singleinputfeild:focus + .singleinputlabel,
+  .singleinputfeild:valid + .singleinputlabel {
+    font-size: 10px;
+    transform: translateY(-13px);
+  }
+}
