@@ -1,0 +1,104 @@
+.signuppage-container {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/00103100-5b45-4d4f-af32-342649f1bda5/64774cd8-5c3a-4823-a0bb-1610d6971bd4/IN-en-20230821-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+.fade {
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.4) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+.netflixlogo {
+  height: 102px;
+  margin: 0rem 1.8rem;
+}
+.signup-main-container {
+  height: 1020px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+.signup-item {
+  height: 520px;
+  width: 450px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+}
+.signup-input {
+  height: auto;
+  width: 315px;
+  margin-top: 4.7rem;
+}
+.signtitle {
+  color: white;
+  font-weight: 700;
+}
+.signup-box {
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+}
+.signup-btn {
+  margin-top: 40px;
+}
+
+.signup-main-end {
+  margin-top: 30px;
+  color: white;
+}
+.new-to-netflix {
+  color: rgb(115, 115, 115);
+  font-weight: 500;
+}
+.signup-items {
+  margin-left: 2px;
+  font-weight: 500;
+}
+.signup-items:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  width: 100%;
+  height: 270px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-box {
+  padding-left: 16.1rem;
+  color: rgb(192, 192, 192);
+}
+.question-call {
+  padding-top: 30px;
+}
+.call-number {
+  margin-left: 5px;
+}
+.call-number:hover {
+  text-decoration: underline;
+}
+.footer-items-container {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 85%;
+  gap: 0.7rem;
+  font-size: small;
+  text-decoration: underline;
+}
+
+.footer-language {
+  margin-top: 40px;
+}
+.footer-end {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 450;
+}
